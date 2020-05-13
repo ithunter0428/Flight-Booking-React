@@ -1,0 +1,61 @@
+.Control .flight-table {
+    font-family: "Open Sans", sans-serif;
+    order: solid 1px #4CAF50;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .Control .title h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+  }
+  
+  .Control .lander p { 
+    color: #999;
+  }
+
+
+.fs-container {
+    display: flex;
+}
+
+.fs-container .form-group {
+    margin-right: 8px;
+    flex-grow: 1;
+}
+
+.fs-container .form-group .radio {
+  margin-right: 8px;
+  flex-grow: 1;
+}
+
+.fs-container .title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+}
+
+.react-datepicker-wrapper {
+    margin-right: 8px;
+}
+
+.react-datepicker__input-container > input {
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.flight-table {
+  border-spacing: 0.5rem;
+
+}
+.flight-table thead th {
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.flight-table tbody td {
+  color: black;
+  padding: 10px;
+}
